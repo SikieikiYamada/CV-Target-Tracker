@@ -6,10 +6,10 @@ from items import MessageItem
 import time
 import numpy as np
 
-train_path = 'trainval/'
-test_path = 'test_public/'
-val_out = 'pre_val/'
-test_out = 'pre_test/'
+train_path = '../trainval/'
+test_path = '../test_public/'
+val_out = '../pre_val/'
+test_out = '../pre_test/'
 
 '''
 监视者模块,负责入侵检测,目标跟踪

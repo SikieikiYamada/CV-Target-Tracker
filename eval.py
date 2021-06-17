@@ -159,9 +159,9 @@ import argparse
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description='Get metrics from GT and submission')
-    p.add_argument('--GT_zip', type=str, default='gt_val.zip',
+    p.add_argument('--GT_zip', type=str, default='../gt_val.zip',
                    help='zipped folder with GT OTB tracking bounding boxes.')
-    p.add_argument('--subm_zip', type=str, default='pre_val.zip',
+    p.add_argument('--subm_zip', type=str, default='../pre_val.zip',
                    help='zipped folder with submitted OTB tracking bounding boxes.')
 
     args = p.parse_args()
